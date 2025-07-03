@@ -1,0 +1,23 @@
+#Used in RStudio
+library(PhySortR)
+
+sortTrees(target.groups = "Chromerida,Cryptophyta,Cryptophyta",
+          min.prop.target = 0.1,
+          in.dir= "Api_crypto_tree_files",
+          out.dir="Chrom_Crypto_crypto",
+          mode = "c",
+          clades.sorted = "E",
+          extension = ".alg.fas.treefile")
+
+
+
+
+#Stramenopiles
+#Apicomplexa
+#Chromerida-Vbra
+#Chromerida-Cvel
+#Dinoflagellates
+#Haptophyta
+#Cryptophyta
+#Rhodophyta
+
